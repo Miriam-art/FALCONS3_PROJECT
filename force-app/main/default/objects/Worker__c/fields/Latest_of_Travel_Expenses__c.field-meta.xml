@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Latest_of_Travel_Expenses__c</fullName>
+    <externalId>false</externalId>
+    <label>Latest of Travel Expenses</label>
+    <summarizedField>Expence__c.Date__c</summarizedField>
+    <summaryForeignKey>Expence__c.Worker_Name__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

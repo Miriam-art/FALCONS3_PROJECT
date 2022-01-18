@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Course_fee</fullName>
+    <active>false</active>
+    <errorConditionFormula>PRIORVALUE(Course_Fees__c ) &gt; Course_Fees__c</errorConditionFormula>
+    <errorMessage>Course Fees cannot be Decreased</errorMessage>
+</ValidationRule>

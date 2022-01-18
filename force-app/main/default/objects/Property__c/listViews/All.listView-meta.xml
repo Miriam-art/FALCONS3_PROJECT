@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Google_URL__c</columns>
+    <columns>Is_Active__c</columns>
+    <columns>Number_of_Rooms__c</columns>
+    <columns>Owner_Email_ID__c</columns>
+    <columns>Owner_ID__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>Owner_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Property__c.Commercial_Record</value>
+    </filters>
+    <label>All</label>
+</ListView>

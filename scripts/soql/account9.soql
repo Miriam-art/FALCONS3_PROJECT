@@ -1,0 +1,4 @@
+SELECT id, name, accountNumber FROM Account
+ORDER BY Name
+SELECT id, name, accountNumber FROM Account
+ORDER BY Name Desc

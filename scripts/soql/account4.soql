@@ -1,0 +1,1 @@
+SELECT id, name, phone from account where phone != null

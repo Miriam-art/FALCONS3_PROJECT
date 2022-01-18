@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enrollment_Date</fullName>
+    <active>false</active>
+    <errorConditionFormula>DAY( Enrollment_Date__c)&gt;=15</errorConditionFormula>
+    <errorDisplayField>Enrollment_Date__c</errorDisplayField>
+    <errorMessage>Enrollment Date cannot be after the 15th day of month.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Guest_Reservation_ID__c</fullName>
+    <displayFormat>GID-{0000}</displayFormat>
+    <externalId>false</externalId>
+    <label>Guest Reservation ID</label>
+    <trackTrending>false</trackTrending>
+    <type>AutoNumber</type>
+</CustomField>

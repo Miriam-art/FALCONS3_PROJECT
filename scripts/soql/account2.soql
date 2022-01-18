@@ -1,0 +1,1 @@
+Select id, name, accountnumber, phone, Active__c from account where name = 'sForse'

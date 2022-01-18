@@ -1,0 +1,19 @@
+<template>
+  <lightning-card title="LWC If">
+      <template if:true={showSection}>
+          This will be displayed on showSection = true
+      </template>
+    <template if:false={showSection}>
+        This will be displayed on showSection = false
+    </template>
+<br />
+
+<lightning-button 
+variant="brand" 
+label="Toggle section"
+title="Toggle section"
+onclick={handleClick}
+class="slds-var-m-left_x-small">
+</lightning-button>
+  </lightning-card>  
+</template>

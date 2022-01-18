@@ -1,0 +1,3 @@
+SELECT id, name, phone, accountNumber, website from Account
+WHERE AccountNumber !=Null
+and Active__c = 'yes'

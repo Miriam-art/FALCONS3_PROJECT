@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hospitality__c</fullName>
+    <externalId>false</externalId>
+    <label>Hospitality</label>
+    <referenceTo>Hospitality__c</referenceTo>
+    <relationshipLabel>Guest Reservations</relationshipLabel>
+    <relationshipName>Guest_Reservations</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

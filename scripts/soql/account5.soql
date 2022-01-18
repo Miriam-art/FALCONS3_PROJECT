@@ -1,0 +1,3 @@
+SELECT id, name, phone,accountNumber FROM Account
+WHERE phone !=null
+and accountNumber !=Null

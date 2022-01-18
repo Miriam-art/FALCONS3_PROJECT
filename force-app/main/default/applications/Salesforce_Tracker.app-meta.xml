@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#CE721C</headerColor>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
+    <label>Salesforce Tracker</label>
+    <navType>Standard</navType>
+    <tabs>Salesforce_Project__c</tabs>
+    <tabs>Salesforce_Ticket__c</tabs>
+    <tabs>standard-Lead</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Salesforce_Tracker_UtilityBar</utilityBar>
+</CustomApplication>

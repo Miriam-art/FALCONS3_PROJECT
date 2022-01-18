@@ -1,0 +1,2 @@
+SELECT id, name FROM Account WHERE
+Name like '%Oil%'
